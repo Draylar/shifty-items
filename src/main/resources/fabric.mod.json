@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "shiftyitems",
+  "version": "${version}",
+  "name": "Shifty Items",
+  "description": "Allows you to shift click on blocks with certain items.",
+  "authors": [
+    "Draylar"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/shiftyitems/icon.png",
+  "environment": "CLIENT",
+  "entrypoints": {
+    "client": [
+      "shiftyitems.draylar.ShiftyItemsClient"
+    ]
+  },
+  "mixins": [
+    "shiftyitems.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7+build.201",
+    "fabric": "*"
+  }
+}
