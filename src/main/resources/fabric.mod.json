@@ -9,7 +9,7 @@
   ],
   "license": "CC0-1.0",
   "icon": "assets/shiftyitems/icon.png",
-  "environment": "CLIENT",
+  "environment": "client",
   "entrypoints": {
     "client": [
       "shiftyitems.draylar.ShiftyItemsClient"
